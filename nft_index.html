@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="stylesheet" href="assets/css/hover.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/khadoliyadream.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    <link rel="stylesheet" href="assets/css/APlayer.min.css"/>
+
+    <title>Preetanand NFT || Home</title>
+  </head>
+  <body>
+    <main>
+        <section class="top_header sticky-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="navbar_head">
+                            <nav class="navbar navbar-expand-lg navbar-light"> 
+                                <a class="navbar-brand" href="#">
+                                    <h2 class="text_blue_dark">Preetanand NFT</h2>
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                  <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="#"><i class="fad fa-home"></i>  Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Explore</a>
+                                    </li> 
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Trending</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Hot & New</a>
+                                    </li>
+                                  </ul> 
+                                  <div class="start_list_btn ml-3">
+                                      <button type="button" class="btn btn-outline-purple">Start Listening</button>
+                                  </div>
+                                </div> 
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero_div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                        <div class="hero_img_text">
+                          <div class="card card-transparent  iq-song-back">
+                            <div class="card-body">
+                               <div class="iq-music-img">
+                                  <div class="equalizer">
+                                     <span class="bar bar-1"></span>
+                                     <span class="bar bar-2"></span>
+                                     <span class="bar bar-3"></span>
+                                     <span class="bar bar-4"></span>
+                                     <span class="bar bar-5"></span>
+                                  </div>
+                               </div>
+                               <div class="player1 row">
+                                  <div class="details1 col-6 col-sm-6 col-lg-6">
+                                     <div class="now-playing1"></div>
+                                     <div class="track-art1"></div>
+                                     <div>
+                                        <div class="track-name1">Pop Smoke</div>
+                                        <div class="track-artist1">Cascada</div>
+                                     </div>
+                                  </div>
+                                  <div class="slider_container1 col-sm-5 col-lg-5">
+                                     <div class="current-time1">00:00</div>
+                                     <input type="range" min="1" max="100" value="0" class="seek_slider1" onchange="seekTo1()">
+                                     <div class="total-duration1">00:00</div>
+                                  </div>
+                                  <div class="buttons1 col-6 col-sm-2 col-lg-3">
+                                     <div class="prev-track1"><i class="fa fa-step-backward fa-2x"></i></div>
+                                     <div class="playpause-track1"><i class="fa fa-play-circle fa-3x"></i></div>
+                                     <div class="next-track1"><i class="fa fa-step-forward fa-2x"></i></div>
+                                  </div>
+                                  <div class="slider_container1 col-sm-4 col-lg-4">
+                                     <i class="fa fa-volume-down"></i>
+                                     <input type="range" min="1" max="100" value="99" class="volume_slider1" onchange="setVolume1()">
+                                     <i class="fa fa-volume-up"></i>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                        <div class="hero_img_text">
+                            <h2>Music Marketplace Soon Accepts NFT Trading</h2>
+                           <p>Discover & Stream Up-And-Coming Artists</p>
+                           <div class="play_btn">
+                               <button type="button" class="btn btn-outline-purple"> Play Now</button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Upcoming Song list -->
+
+        <section class="aplayer_main py-md-5 py-3">
+          <div class="container aplayer_main_1">
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="aplayer_text">
+                  <h3 class="text-white">New Releases For You</h3>
+                </div>
+              </div>  
+            </div>
+            <div class="row"> 
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="0"> 
+                    <img src="assets/img/m1.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="1"> 
+                    <img src="assets/img/m2.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="2"> 
+                    <img src="assets/img/m3.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="3"> 
+                    <img src="assets/img/m4.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+<!--               
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="4"> 
+                    <img src="assets/img/m5.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="5"> 
+                    <img src="assets/img/m6.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div> 
+                </div>
+              </div>  -->
+            </div>
+          </div>
+
+          <div class="container aplayer_main_1">
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="aplayer_text">
+                  <h3 class="text-white">Upcoming Song</h3>
+                </div>
+              </div>  
+            </div>
+            <div class="row">  
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="6"> 
+                    <img src="assets/img/m7.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="7"> 
+                    <img src="assets/img/m8.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="6"> 
+                    <img src="assets/img/m7.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="7"> 
+                    <img src="assets/img/m8.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              <!-- <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="6"> 
+                    <img src="assets/img/m7.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-md-3 py-3">
+                <div class="java_scri_a">
+                  <div class="album-poster" data-switch="7"> 
+                    <img src="assets/img/m8.jpg" class="w-100" alt="">
+                      <div class="play_icon">
+                        <i class="fal fa-play-circle"></i>
+                      </div>
+                    <div class="song_name text-center">
+                      <h6>On My Way</h6>
+                      <small>Artist - Alan Walker</small>
+                    </div>
+                  </div> 
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </section>
+        
+        <!-- About us NFT -->
+        <section class="about_nft">
+          <div class="container py-xl-5"> 
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="body_content"> 
+                  <div class="music_title">
+                    <span></span>
+                    <span>Title</span>
+                    <span>Artists</span>
+                    <span>Genre</span>
+                    <span>Duration</span>
+                    <span></span>
+                    <span></span>
+                  </div> 
+                  <div class="list">
+                         
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </section>
+        <!-- end about us NFT -->
+        <section class="aplayer_main">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="tv_list_song">
+                  <img src="assets/img/tv_play_song.png" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+ 
+    <div id="aplayer"></div>
+ 
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script> 
+    <!-- <script src="assets/js/slider-one.js"></script>  --> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+    <script src="assets/js/hero-section-music.js"></script> 
+    <script src="assets/js/song_list_data.js"></script> 
+
+    <script>
+      $(document).ready(function(current){
+        var list = $(".list");
+        var list_block;
+
+        for (var key in song_list){
+          list_block =$('<div class="list_block"></div>');
+          list.append(list_block);
+
+          list_block.append(
+            '<span class="play_btn"><img class="play_icon" src="assets/img/play.png"/><img class="pause_icon" src="assets/img/pause.png"/></span>'
+            );
+            list_block.append('')
+            list_block.append('<span class="song_title">' + song_list[key].title + '</span>');
+            list_block.append('<span class="song_artist">' + song_list[key].artist + '</span>');            
+            list_block.append('<span class="song_genre">' + song_list[key].genre + '</span>');            
+            list_block.append('<span class="song_duration">' + song_list[key].duration + '</span>');            
+            // list_block.append('<span class="song_track">' + song_list[key].track + '</span>');    
+            list_block.append('<span class="beat_animation"><ul><li></li><li></li><li></li><li></li><li></li></ul></span>'); 
+            list_block.append('<span class="track"><audio id="audio" controls><source src="'+ song_list[key].track +'" type="audio/mp3"></audio></span>'); 
+            list_block.append('<span class="download_btn"><a target="_blank" href="'+ song_list[key].track +'"><img class="" src="assets/img/icons8-download-from-cloud-64.png"></a></span>');  
+          }
+
+          //PLAY FUNCTION
+      $(".list_block .play_btn .play_icon").on('click',function(){
+          $(this).parent().find(".play_icon").css("display", "none");
+          $(this).parent().find(".pause_icon").css("display", "inline-block");
+          $(".play_icon").not(this).parent().find(".pause_icon").css("display", "none")
+          $(".play_icon").not(this).parent().find(".play_icon").css("display", "inline-block")
+       
+
+          //ADD /REMOVE CLASS
+          $(this).parent().addClass("isPlaying");
+          $(".paly_icon").not(this).parent().removeClass("isPlaying");
+
+          //BEAT ANIMATION PLAY
+          $(this).parent().parent().find(".beat_animation li").css("animation-paly-state", "running").
+          css("opacity", "1");
+          $(".play_icon").not(this).parent().parent().find(".beat_animation li").css("animation-paly-state", "running").
+          css("opacity", ".1");
+
+          // PAUSE CURRENT AUDIO TRACK WHEN PLAY
+          $("audio").each(function(e){
+            if(e !== current.currentTarget){
+              $(this)[0].pause()
+            }
+          })
+
+        // PLAY CURRENT AUDIO TRACK
+        $(this).parent().parent().find(".track audio")[0].play();
+
+        });
+        //PAUSE FUNCTIONLITY
+        $(".list_block .play_btn .pause_icon").on('click', function(){
+
+          //hide pause ico
+          $(this).parent().find(".pause_icon").css("display", "none");
+          //show playn icon
+          $(this).parent().find(".play_icon").css("display", "inline-block");
+
+          // beat animation pause
+          $(this).parent().parent().find(".beat_animation li").css("animation-paly-state", "paused");
+
+          //pause current audio track
+          $(this).parent().parent().find(".track audio")[0].pause();
+        });
+
+        //autoplay functionlety
+        // $(".autoplay_btn input").on('change', funtion(){
+        //   if($(this).is(":checked")){
+        //     $("audio").on('ended', function(){
+              
+        //       $(this).parent().parent().next().find("audio")[0].play();
+
+        //       $(".list_block").removeClass("isPlaying");
+        //       $(this).parent().parent().next().addClass("isPlaying");
+        //       $(this).parent().parent().next().find(".beat_animation li").css("animation-play-state", "running").css("opacity", "1");
+
+        //       $(this).parent().parent().next().find(".play_icon").css("display", "none");
+        //       $(this).parent().parent().next().find(".pause_icon").css("display", "inline-block");
+        //     });
+        //   } else {
+
+        //     $("audio").on('ended', function(){
+        //       $(".beat_animation li").css("animation-play-state", "paused").css("opacity", ".1");
+        //       $(".pause_icon").css("display", "none");
+        //       $(".play_icon").css("display", "inline-block");
+        //     });
+
+        //   }
+
+        // })
+
+      });
+    </script>
+
+  </body>
+</html>
